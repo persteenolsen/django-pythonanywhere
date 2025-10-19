@@ -205,7 +205,7 @@ Note: The above command may not be needed as this Starter dont have a Django Adm
 
 Type the URL in your Browser after deployment to Vercel
 
-https:// your project at vercel.app/static/pso-django.jpg
+https:// your project at pythonanywhere/static/pso-django.jpg
 
 or the URL when running locally
 
