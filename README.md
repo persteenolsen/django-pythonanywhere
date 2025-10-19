@@ -6,9 +6,7 @@ This example shows how to use Django 5 on Vercel with Serverless Functions using
 
 Last updated: 19-10-2025
 
-Node version selected at Vercel Cloud: 22
-
-## Demo at Vercel
+## Demo at PythonAnywhere
 
 https://persteen.pythonanywhere.com/
 
@@ -19,7 +17,7 @@ https://persteen.pythonanywhere.com/
 - Download the Python extension for Visual Studio Code which automatically include the Pylance extionsion
 - Download / fork this Django Starter Website from my GitHub
 - Create the virtual envirement ".venv" for the Django Web App by Powershell or by VS Code
-- Virtual Enviroment by VS Code: "View - Command Palette - Python Create Enviroment"
+- Virtual Enviroment by VS Code: "View - Command Palette - Python Create Environment"
 
 ## Install with Python commands by Powershell locally at Windows 10
 
@@ -49,22 +47,18 @@ https://persteen.pythonanywhere.com/
 
 - (.myvirtualenv) pip install -r requirements.txt
 
-- (.myvirtualenv) pip freeze > requirements.txt
-
 - (.myvirtualenv) cd ../
 
 When starting the Django Website from the Virtual Enviroment (.venv) you will notice that Django 5.1.11 will start. Otherwise you can use the Global Django if you have one installed by running:
 
 - python manage.py runserver
 
-There is no Administration Backend and no Database for this Starter serving Statis files
-
 ## How it Works
 
 Our Django application, `example` is configured as an installed application in `mysite/settings.py`:
 
 ```bash
-# vercel_app/settings.py
+# mysite/settings.py
 INSTALLED_APPS = [
     # ...
     'example',
@@ -92,7 +86,7 @@ The corresponding `WSGI_APPLICATION` setting is configured to use the `app` vari
 WSGI_APPLICATION = 'mysite.wsgi.app'
 ```
 
-This Django example uses the Web Server Gateway Interface (WSGI) with Django to enable handling requests on PythonAnywhere.
+This Django example uses the Web Server Gateway Interface (WSGI) with Django to enable handling requests on PythonAnywhere
 
 ## Routing 
 
@@ -159,13 +153,13 @@ If using "pymysql" take a look at the files needed for connecting to MySQL: `mys
 
 `mysite/__init__.py`
 
-Create a Super User for the Admin Backend in the MySQL
+Create a Super User for the Admin Backend in the MySQL or SQLite
 
 ```bash
 python manage.py createsuperuser
 ```
 
-Make the Migration to the MySQL DB
+Make the Migration to the MySQL or SQLite 
 
 ```bash
 python manage.py makemigrations

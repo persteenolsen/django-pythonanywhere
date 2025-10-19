@@ -108,7 +108,7 @@ WSGI_APPLICATION = 'mysite.wsgi.app'
 # Note: Django modules for using databases are not support in serverless
 # environments like Vercel. You can use a database over HTTP, hosted elsewhere.
 
-# 18-10-2025 - The SQLite works both locally and udloaded to Pythonanywhere 
+# 18-10-2025 - The SQLite works both locally and uploaded to Pythonanywhere 
 DATABASES = {
 
 'default': {
