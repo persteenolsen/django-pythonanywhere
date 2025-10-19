@@ -1,5 +1,7 @@
 Django==5.1.11
-pymysql
+pymysql= 1.1.2
 python-dotenv==0.20.0
-whitenoise
+whitenoise=6.11.0
+
+
 

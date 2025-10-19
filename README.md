@@ -37,15 +37,21 @@ https://persteen.pythonanywhere.com/
 
 - (.venv) python manage.py runserver
 
-## Install with Python commands by the Console at PythonAnywhere
+## Install with Python commands by the Bash Console at PythonAnywhere
 
--  mkvirtualenv myvirtualenv --python=/usr/bin/python3.12
+- mkvirtualenv --python=python3.12 myvirtualenv
 
 - Copy requirements.txt to .myvirtualenv
 
 - $ workon myvirtualenv
 
-- (.myvirtualenv) pip install -r requirements.txt
+- (.myvirtualenv) pip install whitenoise=6.11.0
+
+- (.myvirtualenv) pip install PyMySQL=1.1.2
+
+- (.myvirtualenv) pip install python-dotenv=0.20.0
+
+- (.myvirtualenv) pip install Django=5.1.11
 
 - (.myvirtualenv) cd ../
 
