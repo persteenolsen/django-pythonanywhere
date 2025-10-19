@@ -2,7 +2,7 @@
 
 # Python + Django + MySQL + Models + PythonAnywhere
 
-This example shows how to use Django 5 on Vercel with Serverless Functions using the [Python Runtime](https://vercel.com/docs/concepts/functions/serverless-functions/runtimes/python).
+This example shows how to use Django 5 on PythonAnywhere using the [Python Runtime](https://vercel.com/docs/concepts/functions/serverless-functions/runtimes/python).
 
 Last updated: 19-10-2025
 
@@ -16,8 +16,8 @@ https://persteen.pythonanywhere.com/
 - Make sure that you have installed Python by the command in Powershell: "python --version"
 - Download the Python extension for Visual Studio Code which automatically include the Pylance extionsion
 - Download / fork this Django Starter Website from my GitHub
-- Create the virtual envirement ".venv" for the Django Web App by Powershell or by VS Code
-- Virtual Enviroment by VS Code: "View - Command Palette - Python Create Environment"
+- Create the virtual environment ".venv" for the Django Web App by Powershell or by VS Code
+- Virtual Environment by VS Code: "View - Command Palette - Python Create Environment"
 
 ## Install with Python commands by Powershell locally at Windows 10
 
