@@ -2,7 +2,7 @@
 
 # Python + Django + MySQL + Models + PythonAnywhere
 
-This example shows how to use Django 5 on PythonAnywhere using the [Python Runtime](https://vercel.com/docs/concepts/functions/serverless-functions/runtimes/python).
+This example shows how to use Django 5 on PythonAnywhere
 
 Last updated: 19-10-2025
 
