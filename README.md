@@ -4,7 +4,7 @@
 
 This example shows how to use Django 5 on PythonAnywhere
 
-Last updated: 31-12-2025
+Last updated: 01-01-2026
 
 ## Demo at PythonAnywhere
 
